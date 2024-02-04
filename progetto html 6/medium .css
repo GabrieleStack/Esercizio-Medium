@@ -1,0 +1,318 @@
+body {
+  background-color: white;
+  margin: 0;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+
+.header {
+  height: 90px;
+  width: 1440px;
+  border-bottom: 0, 5px solid;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  position: fixed;
+  margin-top: -100px;
+  background-color: white;
+  z-index: 1000;
+}
+
+.logomedium {
+  height: 80px;
+  width: 300px;
+  left: 100px;
+  position: absolute;
+  top: 0;
+}
+
+.interaction {
+  margin-right: 20px;
+  justify-content: center;
+  right: 100px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cerca,
+.preferiti,
+.notifiche,
+.resum-membership,
+.profile {
+  margin-right: 30px;
+}
+
+.cerca,
+.preferiti,
+.notifiche {
+  margin-top: 13px;
+}
+
+.profile {
+  margin-top: 5px;
+}
+
+.resum-membership {
+  border: solid 1px black;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: 1000;
+}
+
+.section-elenco {
+  margin: 100px;
+}
+
+.section {
+  margin-top: 50px;
+  left: 100px;
+  border-bottom: solid 1px gray;
+  font-family: "Lato", sans-serif;
+  position: absolute;
+  display: inline;
+  display: flex;
+  width: 800px;
+  font-size: xx-small;
+  color: grey;
+}
+
+.FOLLOWING,
+.RECOMMENDED {
+  margin-right: 30px;
+}
+
+.elenco-articles {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.articles {
+  margin-top: 130px;
+  margin-left: 0px;
+  font-size: medium;
+  max-width: 500px;
+  margin-bottom: -100px;
+}
+
+.creatore-articolo {
+  font-size: small;
+}
+
+.titolo-articolo {
+  font-weight: bold;
+  font-size: larger;
+  
+}
+
+.immagine-articolo {
+  height: 160px;
+  width: 270px;
+  margin-left: 500px;
+  position: absolute;
+  margin-top: -180px;
+}
+
+.icon {
+  display: flex;
+  justify-content: end;
+  margin-right: 10px;
+}
+
+.twitterinfocontainer {
+  margin-top: 0px;
+  height: 800px;
+  width: 400px;
+  flex-direction: column;
+  display: flex;
+  position: absolute;
+  right: 20px;
+  border-left: solid 1px gray;
+}
+
+.twitter-info {
+  margin-top: 40px;
+  height: 230px;
+  border-bottom: solid 1px gray;
+  margin-left: 30px;
+}
+
+.loghi {
+  display: inline-block;
+  display: flex;
+  margin-left: 120px;
+}
+.mediumlogo {
+  height: 50px;
+  width: 50px;
+  margin-right: 30px;
+}
+
+.twitterlogo {
+  height: 50px;
+  width: 50px;
+}
+
+.twittertext {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.connect-to-twitter {
+  margin-top: 20px;
+  text-align: center;
+  border: solid 1px black;
+  border-radius: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 200px;
+  margin-left: 80px;
+}
+
+.maybe-later {
+  margin-top: 15px;
+  text-align: center;
+  margin-left: 0px;
+}
+
+.recommended-container {
+  position: absolute;
+  right: 20px;
+  height: 600px;
+  max-width: 400px;
+  margin-top: 280px;
+  left: 960px;
+}
+
+.recommended {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.technology,
+.money,
+.buisness,
+.productivity {
+  font-weight: 5px;
+  border: 0px solid gray;
+  background-color: rgba(173, 216, 230, 0.3);
+  border-radius: 15px;
+  padding: 5px 5px;
+  margin-right: 10px;
+}
+
+.separate {
+  margin-top: 20px;
+}
+
+.psychology,
+.mindfulness,
+.art {
+  margin-top: 10px;
+  font-weight: 10px;
+  border: 0px solid gray;
+  background-color: rgba(173, 216, 230, 0.3);
+  border-radius: 15px;
+  padding: 5px 5px;
+  margin-right: 11px;
+}
+
+.separate2 {
+  margin-top: 20px;
+}
+
+.workout,
+.lifestyle {
+  margin-top: 10px;
+  font-weight: 10px;
+  border: 0px solid gray;
+  background-color: rgba(173, 216, 230, 0.3);
+  border-radius: 15px;
+  padding: 5px 5px;
+  margin-right: 11px;
+}
+
+.who-follow-container {
+  margin-top: 50px;
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  right: 20px;
+  margin-top: 440px;
+  left: 960px;
+  max-width: 400px;
+}
+
+.title {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.image-profile {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+
+.lessig {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.info {
+  margin-top: 5px;
+  color: gray;
+}
+
+.button {
+  padding: 10px 10px;
+  border: solid 1px gray;
+  border-radius: 25px;
+  margin-left: 50px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.lessig {
+  margin-bottom: 5px;
+}
+
+.lessiginfo {
+  margin-left: 10px;
+  margin-top: -7px;
+}
+
+.resum-membership:hover {
+  background-color: rgba(173, 216, 230, 0.5);
+  cursor: pointer;
+}
+
+.connect-to-twitter:hover {
+  background-color: rgba(173, 216, 230, 0.5);
+  cursor: pointer;
+}
+
+.technology:hover,
+.money:hover,
+.buisness:hover,
+.productivity:hover {
+  cursor: pointer;
+}
+
+.psychology:hover,
+.mindfulness:hover,
+.art:hover {
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgba(173, 216, 230, 0.5);
+  cursor: pointer;
+}
